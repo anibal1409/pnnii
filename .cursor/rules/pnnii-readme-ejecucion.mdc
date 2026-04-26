@@ -1,0 +1,13 @@
+---
+description: Estandar de ejecucion en README por unidad
+globs: unidades/**/README.md
+alwaysApply: false
+---
+
+# Estandar de ejecucion en README
+
+- Cada `README.md` de unidad debe incluir una seccion `Como ejecutar`.
+- La seccion debe listar comandos para:
+  - ejecutar ejercicios principales;
+  - ejecutar visualizaciones (si existen).
+- Si la unidad aun no tiene scripts, se debe indicar explicitamente y dejar formato base para comandos futuros.

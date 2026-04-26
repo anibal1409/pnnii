@@ -1,0 +1,20 @@
+---
+description: Estandar de implementacion educativa en Python por unidad
+globs: unidades/**/*.py
+alwaysApply: false
+---
+
+# Estandar Python por unidad
+
+- Todo el codigo de ejercicios y ejemplos debe estar en Python.
+- Cada archivo de ejercicio debe incluir comentarios con enunciado y resultado esperado.
+- Los enunciados de ejercicios deben estar separados del bloque donde se desarrolla la solucion propuesta.
+- Cada unidad debe incluir scripts que puedan ejecutarse localmente sin dependencias complejas.
+- Las interfaces interactivas deben ser claras para clase, ejecutables y estar documentadas.
+- Todo script educativo debe incluir comentarios linea por linea para facilitar explicacion docente.
+- Cada archivo Python debe iniciar con una explicacion general del modulo, su alcance y su flujo.
+- Cada ejercicio debe incluir una seccion `Explicacion breve`, con lenguaje facil para estudiantes principiantes.
+- En visualizaciones, implementar interfaces interactivas ejecutables para manipular conceptos.
+- No usar scripts de visualizacion basados unicamente en generacion de imagenes estaticas.
+- Todas las interfaces deben tener diseno profesional, limpio y comportamiento responsivo.
+- Cada unidad debe incluir un archivo principal en `visualizaciones/` que centralice la practica de conceptos.

@@ -1,0 +1,37 @@
+---
+description: Reglas obligatorias de desarrollo para backend, frontend y contenido educativo
+globs: **/*
+alwaysApply: true
+---
+
+# Reglas obligatorias del proyecto
+
+## Backend
+
+- Usar siempre nomenclatura `camelCase` en DTOs de respuesta (nunca `snake_case`).
+- Mapear correctamente propiedades `snake_case` de entidades hacia DTOs en `camelCase`.
+- Verificar consistencia de naming y contratos antes de crear cualquier DTO de respuesta.
+
+## Frontend
+
+- Nunca capturar errores manualmente en componentes o servicios.
+- Depender del interceptor global de errores (`GlobalErrorHandlerService`).
+- No usar bloque `error:` en suscripciones de `Observable`.
+- No usar `console.error` ni `snackbarService.error` para errores de API.
+
+## Contenido por unidad
+
+Para cada unidad nueva:
+
+1. Incluir enunciados de diferentes ejercicios referentes al tema.
+2. Desarrollar e implementar en un punto separado los ejercicios propuestos en cada unidad.
+3. Colocar los resultados de los ejercicios inmediatamente despues de cada enunciado.
+4. Incluir al menos una interfaz interactiva del programa para poner en practica teoremas o conceptos clave de la unidad.
+5. Documentar objetivo terminal, objetivos especificos y contenido.
+6. Comentar y documentar el codigo linea por linea en scripts educativos.
+7. Agregar al inicio de cada archivo una explicacion general del objetivo del modulo.
+8. En cada ejercicio incluir una seccion titulada `Explicacion breve`, simple y pensada para estudiantes que inician.
+9. En el `README.md` de cada unidad incluir una seccion `Como ejecutar` con comandos claros para correr todos los programas de esa unidad.
+10. Los ejercicios graficos deben implementarse como interfaz interactiva ejecutable; no se acepta solo generacion de imagenes estaticas.
+11. Las interfaces deben tener presentacion profesional, ser pulcras y responsivas (adaptarse bien a cambios de tamano de ventana).
+12. En cada unidad debe existir en `visualizaciones/` un programa grafico principal que implemente de forma practica los conceptos trabajados.

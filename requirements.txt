@@ -1,0 +1,2 @@
+# Sin dependencias externas obligatorias por ahora.
+# La interfaz de la Unidad I usa tkinter (incluido en Python estandar).
